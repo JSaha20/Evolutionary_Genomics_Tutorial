@@ -281,6 +281,10 @@ We will run `ADMIXTURE` with different numbers of ancestral populations (K). Adm
 Now run admixture with values of `K=2,3,..,7`. Type `admixture --help` to see the syntax. Optional: Write a bash script with for loop to automatise running admixture for these different `K` values.
 
 Plot the results for the differnt K values. 
+Note: If you are running on Ubuntu on windows use the following:
+- Go to the folder where you downloaded the software file and type `pwd`. Copy the path shown.
+- Now in your shell paste the path. Add to it `/dist/admixture_linux-1.3.0/admixture32` without any space. This is how you can use the software. Add your command after a space.
+- For example mine looks like `/home/jaysmita/UA_onedrive/UA/class/Genomic_workshop_2024/analysis/dist/admixture_linux-1.3.0/admixture32`
 
 ## Divergence scan
 
