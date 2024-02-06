@@ -158,7 +158,7 @@ PLINK v1.90b7.2 64-bit (11 Dec 2023)           www.cog-genomics.org/plink/1.9/
  ```
   - In your terminal type the following to decompress
   ```
-  tar -xvf admixture/binaries/admixture_linux-1.3.0.tar.gz
+  tar -xvf admixture_linux-1.3.0.tar.gz
   ```
   - You have a folder called `dist`.
   In this folder there is a folder called `admixture_linux-1.3.0`. Within which there is a program called `admixture32`. This is what we will use for the analysis.
@@ -292,6 +292,12 @@ We will run `ADMIXTURE` with different numbers of ancestral populations (K). Adm
 Now run admixture with values of `K=2,3,..,7`. Type `admixture --help` to see the syntax. Optional: Write a bash script with for loop to automatise running admixture for these different `K` values.
 
 Plot the results for the differnt K values. 
+
+Note: For the ones running Ubuntu om windows, you have to call admixture with its path.To do that do as following:
+ - Go into the folder where you downloaded admixture. In our case mostly in the dist folder.
+ - Type the command `pwd`. This will give you which directory you are in. Copy this.
+ - In your shell type `.` and paste the path you copied without any spaces. Add the follwing to it without any spaces. `/dist/admixture_linux-1.3.0/admixture32`. Then add the command to it.
+
 
 ## Divergence scan
 
