@@ -16,3 +16,9 @@ Here we see how to write our commands into a shell script and run.
 		wget --no-check-certificate https://raw.github.com/feilchenfeldt/Evolutionary_Genomics_Tutorial/main/Data/TelmatherinaPopgen/Telmatherina38.pass.snps.biallelic.Chr$i.1M.vcf.gz;
 		done
 	```
+ - Run this using the command
+  `bash script.sh`
+# Run commands on all the chromosome files simultaneously
+ - Follow a similar syntax like above and get results for all chromosomes:
+ Choose any command from the past days. Example commands:
+ `plink --double-id --vcf Telmatherina38.pass.snps.biallelic.<chrom>.1M.vcf.gz --out <output_base_name> --pca`
