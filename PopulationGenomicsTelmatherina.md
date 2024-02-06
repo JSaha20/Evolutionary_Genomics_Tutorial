@@ -151,6 +151,16 @@ PLINK v1.90b7.2 64-bit (11 Dec 2023)           www.cog-genomics.org/plink/1.9/
   ...
   ...
 ```
+### Admixture installation
+ - Using the following command you can download the software manually using your terminal
+ ```
+ wget https://dalexander.github.io/admixture/binaries/admixture_linux-1.3.0.tar.gz
+ ```
+  - In your terminal type the following to decompress
+  ```
+  tar -xvf admixture/binaries/admixture_linux-1.3.0.tar.gz
+  ```
+  - You have a folder called `dist`
 ## Downloading and checking the data.
 
 ### Investigate the metadata
