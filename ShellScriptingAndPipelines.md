@@ -2,7 +2,7 @@
 Here we see how to write our commands into a shell script and run.
 (Continued from Unix Intermediate. Try exercises there first before doing this)
 
-# Getting out command into a script file
+# Putting commands into a script file
  Use nano or echo.
   Answer
   - type `nano` into the terminal. Type command and save file as `script.sh`
@@ -22,3 +22,10 @@ Here we see how to write our commands into a shell script and run.
  - Follow a similar syntax like above and get results for all chromosomes:
  Choose any command from the past days. Example commands:
  `plink --double-id --vcf Telmatherina38.pass.snps.biallelic.<chrom>.1M.vcf.gz --out <output_base_name> --pca`
+ 
+ # Pipelines
+  When we need to run commands in a sequence and the output of the last command is an input for the next we call it a pipeline.
+  Example, if we want to download data and run commands on the downloaded data, we might want to put them in a script together one after other.
+  Add the commands from the previous steps one after other and save in a script file and run it.
+ 
+ 
