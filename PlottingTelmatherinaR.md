@@ -55,6 +55,7 @@ Then load the libraries needed
 library(tidyverse)
 library(ape)
 library(ggtree)
+library(ggplot2)
 ```
 
 Next, it is useful to set the directory in which you have your popgen results as
@@ -265,9 +266,6 @@ ggtree(tree) +
                   color="red", offset=180, align=TRUE) +
   theme_tree() +
   coord_cartesian(xlim = c(0, 1300))
-
-aligned_tree <- ggtree_object + geom_tiplab(align = TRUE, aes(label= "")) + theme(plot.margin = unit(c(0, 0, 0, 0), "cm"))
-
   
 ```
 ### Ordering the distance matrix by tree order
