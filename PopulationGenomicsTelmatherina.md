@@ -160,7 +160,7 @@ PLINK v1.90b7.2 64-bit (11 Dec 2023)           www.cog-genomics.org/plink/1.9/
   ```
   tar -xvf admixture/binaries/admixture_linux-1.3.0.tar.gz
   ```
-  -You have a folder called `dist`.
+  - You have a folder called `dist`.
   In this folder there is a folder called `admixture_linux-1.3.0`. Within which there is a program called `admixture32`. This is what we will use for the analysis.
 ## Downloading and checking the data.
 
