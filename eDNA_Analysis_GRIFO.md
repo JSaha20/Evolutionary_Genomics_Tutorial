@@ -39,7 +39,7 @@ nano config.ini
 ```
 
 Paste this information:
-
+```
 [paths]
 path_data = ../data # the path to your data
 path_to_blastdb = ../reference_databases/SILVA_138/SILVA_138_SSURef_tax_silva.fasta #path to your database
@@ -57,7 +57,7 @@ numthreads = 8
 mts = 10
 pct_ident = 95 #percentage similarity for blast
 db = SILVA_138
-
+```
 
 
 In the grifo folder, Make a folder ./data with the demultiplexed data
