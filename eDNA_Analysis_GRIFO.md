@@ -71,7 +71,7 @@ copy the barcode folders containing the demultiplexed data to this folder
 Build conda a environment:
 
 ```
-conda create -n “eDNA” python=3.8.18
+conda create -n "eDNA" python=3.8.18
 conda activate eDNA
 conda install -c bioconda nanofilt
 pip install scikit-learn
